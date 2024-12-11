@@ -1,5 +1,9 @@
 {
-  "name": "garden",
+  "name": "garden-studio",
+  "author": {
+    "name": "Saskia Bobinska",
+    "email": "bobinska-dev@gmail.com"
+  },
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
@@ -12,13 +16,24 @@
     "deploy-graphql": "sanity graphql deploy"
   },
   "keywords": [
-    "sanity"
+    "sanity",
+    "gardening",
+    "studio"
   ],
   "dependencies": {
+    "@sanity/assist": "^3.0.8",
+    "@sanity/color-input": "^4.0.1",
+    "@sanity/google-maps-input": "^4.0.1",
+    "@sanity/locale-de-de": "^1.1.15",
+    "@sanity/locale-fr-fr": "^1.2.14",
+    "@sanity/ui": "^2.10.8",
     "@sanity/vision": "^3.67.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.4.0",
     "sanity": "^3.67.0",
+    "sanity-plugin-hotspot-array": "^2.1.2",
+    "sanity-plugin-internationalized-array": "^3.0.2",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
@@ -31,7 +46,7 @@
   "prettier": {
     "semi": false,
     "printWidth": 100,
-    "bracketSpacing": false,
+    "bracketSpacing": true,
     "singleQuote": true
   }
 }
